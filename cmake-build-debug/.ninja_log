@@ -1,0 +1,6 @@
+# ninja log v5
+85	4786	7510258573945550	CMakeFiles/HUT_Compiler.dir/main.cpp.obj	427a392918b7157b
+4788	7819	7510258604506161	HUT_Compiler.exe	cf6afeaa17fc9b4a
+15	1223	7510264427003589	build.ninja	4916b0b9000cc571
+35	5351	7510265924029586	CMakeFiles/HUT_Compiler.dir/main.cpp.obj	427a392918b7157b
+5352	7379	7510265944403980	HUT_Compiler.exe	cf6afeaa17fc9b4a

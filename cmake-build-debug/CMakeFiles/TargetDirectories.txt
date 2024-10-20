@@ -1,0 +1,3 @@
+C:/Users/Crisiroid/CLionProjects/HUT-Compiler/cmake-build-debug/CMakeFiles/HUT_Compiler.dir
+C:/Users/Crisiroid/CLionProjects/HUT-Compiler/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Crisiroid/CLionProjects/HUT-Compiler/cmake-build-debug/CMakeFiles/rebuild_cache.dir
