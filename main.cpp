@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include "Frontend/Scanner.hpp"
-#include "Frontend//SYNTAX_ANALYZER.hpp"
 
 std::vector<Token> scanFile(const std::string& filename) {
     std::vector<Token> parsedTokens;  // To store all tokens
@@ -32,12 +31,16 @@ std::vector<Token> scanFile(const std::string& filename) {
     return parsedTokens;
 
 }
+int main(int argc, char* argv[]) {
+    if (argc != 2) {
+        std::cerr << "Usage: " << argv[0] << " <input_file>" << std::endl;
+        return 1;
+    }
 
-int main() {
-    std::string filename = "test.hol";
-    std::vector<Token> parsedTokens = scanFile(filename);
+    std::string filePath = argv[1];
 
-    SyntaxAnalyzer parser(parsedTokens);
-    parser.parseProgram();
+    std::vector<Token> parsedTokens = scanFile(filePath);
+    scanFile(filePath);
+
     return 0;
 }
