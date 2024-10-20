@@ -14,7 +14,7 @@ Welcome to Compiler Design Course, undergraduate course. ! Here you will find a 
 **Offline Tutorial**
 
 
-[![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/u/0/folders/1TTcXxTn1Q5iqyGGkqTOlnW9i039y5JQa)
+[![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/drive/folders/1IINA7MbElnFnh4Xo3snL94FPAVbxFSM5?usp=drive_link)
 
 # Quick Start
 
