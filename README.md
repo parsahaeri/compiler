@@ -22,12 +22,16 @@ Welcome to Compiler Design Course, undergraduate course. ! Here you will find a 
 * The `Backend` directory contains Code Optimization and middle codes. 
 
 
-Current Grammar: 
+### BNF 
 
 \<S> ::= \<VarDec>
+
 \<VarDec> ::= \<Type> "IDENTIFIER" \<OptAssign> ";"
+
 \<OptAssign> ::= "=" \<Expr> | epsilon
+
 \<Expr> ::= "IDENTIFIER" | "NUMBER"
+
 
 
 # Taeaching Assistants and Course Maintainers
