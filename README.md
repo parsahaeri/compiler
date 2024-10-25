@@ -24,10 +24,10 @@ Welcome to Compiler Design Course, undergraduate course. ! Here you will find a 
 
 Current Grammar: 
 
-<S> ::= <VarDec>
-<VarDec> ::= <Type> "IDENTIFIER" <OptAssign> ";"
-<OptAssign> ::= "=" <Expr> | epsilon
-<Expr> ::= "IDENTIFIER" | "NUMBER"
+\<S> ::= \<VarDec>
+\<VarDec> ::= \<Type> "IDENTIFIER" \<OptAssign> ";"
+\<OptAssign> ::= "=" \<Expr> | epsilon
+\<Expr> ::= "IDENTIFIER" | "NUMBER"
 
 
 # Taeaching Assistants and Course Maintainers
