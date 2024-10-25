@@ -1,9 +1,10 @@
 #include <iostream>
 #include <fstream>
 #include "Frontend/Scanner.hpp"
+#include "Frontend/Parser.hpp"
 
 std::vector<Token> scanFile(const std::string& filename) {
-    std::vector<Token> parsedTokens;  // To store all tokens
+    std::vector<Token> parsedTokens;
     Scanner scanner;
     std::ifstream file(filename);
     if (!file.is_open()) {
@@ -16,7 +17,7 @@ std::vector<Token> scanFile(const std::string& filename) {
     while (std::getline(file, line)) {
         std::vector<Token> tokens = scanner.scan(line, lineNumber);
         for (const Token& token : tokens) {
-            parsedTokens.push_back(token);  // Store each token individually
+            parsedTokens.push_back(token);
         }
         lineNumber++;
     }
@@ -38,9 +39,13 @@ int main(int argc, char* argv[]) {
     }
 
     std::string filePath = argv[1];
+    std::vector<Token> Tokens = scanFile(filePath);
+    Parser parser(Tokens);
 
-    std::vector<Token> parsedTokens = scanFile(filePath);
-    scanFile(filePath);
-
+    if(parser.Parse()) {
+        std::cout << "Parsing completed successfully" << std::endl;
+    }else {
+        std::cout << "Parsing failed" << std::endl;
+    }
     return 0;
 }

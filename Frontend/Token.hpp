@@ -9,7 +9,7 @@ enum class TokenType {
     KEYWORD,
     NUMBER,
     OPERATOR,
-    DELIMITER
+    DELIMITER,
 };
 
 class Token {

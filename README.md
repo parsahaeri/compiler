@@ -21,6 +21,15 @@ Welcome to Compiler Design Course, undergraduate course. ! Here you will find a 
 * The `Frontend` directory contains token management system, scanner, DFA and Parser.
 * The `Backend` directory contains Code Optimization and middle codes. 
 
+
+Current Grammar: 
+
+<S> ::= <VarDec>
+<VarDec> ::= <Type> "IDENTIFIER" <OptAssign> ";"
+<OptAssign> ::= "=" <Expr> | epsilon
+<Expr> ::= "IDENTIFIER" | "NUMBER"
+
+
 # Taeaching Assistants and Course Maintainers
 
 ### Fall 2024

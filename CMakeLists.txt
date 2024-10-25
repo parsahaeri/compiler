@@ -8,7 +8,5 @@ add_executable(HUT_Compiler main.cpp
         Frontend/Scanner.hpp
         Frontend/Keywords.hpp
         Frontend/DFA.hpp
-        Frontend/DFA.hpp
-        Frontend/SYNTAX_ANALYZER.hpp
-        Frontend/SYNTAX_ANALYZER.hpp
+        Frontend/Parser.hpp
 )
