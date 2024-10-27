@@ -19,7 +19,6 @@ Welcome to Compiler Design Course, undergraduate course. ! Here you will find a 
 # Quick Start
 
 * The `Frontend` directory contains token management system, scanner, DFA and Parser.
-* The `Backend` directory contains Code Optimization and middle codes. 
 
 
 ### BNF 
